@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/shawn-codes/3-column-preview-card-component-main)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://merry-malasada-ba45b8.netlify.app)
 
 ### Built with
 
