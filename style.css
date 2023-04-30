@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-/* MOBILE FIRST */
+/* DESKTOP DESGIN */
 
 body {
   background: hsl(0, 0%, 95%);
@@ -24,7 +24,7 @@ body {
 
 .card {
   width: 18.63rem;
-  height: 30rem;
+  height: 28.5rem;
   padding: 2.5rem;
 }
 
@@ -84,6 +84,12 @@ a {
   font-family: "Lexend Deca", sans-serif;
 }
 
+a:hover {
+  color: #fff;
+  border: 2px solid #fff;
+  background: transparent;
+}
+
 .cars {
   color: hsl(31, 77%, 52%);
 }
@@ -99,9 +105,10 @@ a {
 
 /* MOBILE DESIGN */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .container {
     flex-direction: column;
+    height: auto;
   }
 
   .card:nth-of-type(1) {
@@ -115,10 +122,6 @@ a {
   }
 
   .card {
-    height: 16rem;
-  }
-
-  p {
-    margin-bottom: 0;
+    height: 440px;
   }
 }
