@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* MOBILE FIRST */
+
+body {
+  background: hsl(0, 0%, 95%);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 18.63rem;
+  height: 30rem;
+  padding: 2.5rem;
+}
+
+/* First Card */
+.card:nth-of-type(1) {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+/* Second Card */
+.card:nth-of-type(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+
+/* Thrid Card */
+.card:nth-of-type(3) {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+/* Text Styles */
+
+h1,
+a {
+  color: hsl(0, 0%, 95%);
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+p {
+  width: 23ch;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 1.55rem;
+  margin-bottom: 4rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+a {
+  background: hsl(0, 0%, 95%);
+  text-decoration: none;
+  display: inline-block;
+  width: 9.2rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  text-align: center;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.cars {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  color: hsl(179, 100%, 13%);
+}
+/*  */
+
+/* MOBILE DESIGN */
+
+@media screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .card:nth-of-type(1) {
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0;
+  }
+
+  .card:nth-of-type(3) {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.5rem;
+  }
+
+  .card {
+    height: 16rem;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
