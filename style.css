@@ -51,8 +51,7 @@ body {
 
 h1,
 a {
-  /* color: hsl(0, 0%, 95%);  Color Test*/
-  color: aquamarine;
+  color: hsl(0, 0%, 95%);
 }
 
 h1 {
